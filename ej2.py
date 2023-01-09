@@ -10,7 +10,6 @@ class Nave():
         identificador_siglo = self.rango[4]
         identificador_escuadra = self.rango[5]
         numero_trooper = self.rango[6]
-        return f"La nave {self.nombre} tiene los siguientes atributos\nEl codigo de la legion es: {codigo_legion}; El identificador coherte: {identificador_coherte}; El identificador siglo: {identificador_siglo}; El identificador escuadra: {identificador_escuadra}; Numero trooper: {numero_trooper}"
 
     def __str__(self):
-        return 
+        return f"La nave {self.nombre} tiene los siguientes atributos\nEl codigo de la legion es: {codigo_legion}; El identificador coherte: {identificador_coherte}; El identificador siglo: {identificador_siglo}; El identificador escuadra: {identificador_escuadra}; Numero trooper: {numero_trooper}"
